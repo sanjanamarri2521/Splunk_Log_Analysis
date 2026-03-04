@@ -250,11 +250,11 @@ This project demonstrates end-to-end:
 -   Dashboard visualization
 -   Incident timeline reconstruction
 
+It replicates real SOC investigation workflows using Splunk in a
+controlled AWS lab environment.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-It replicates real SOC investigation workflows using Splunk in a
-controlled AWS lab environment.
