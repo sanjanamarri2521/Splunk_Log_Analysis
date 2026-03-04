@@ -105,6 +105,10 @@ sourcetype="auth" (Event="Failed password" OR Event="Accepted password")
     sudo -l
     sudo su -
 
+Image:
+
+    images/privilege-escalation-detection.png
+
 ## Logs Generated
 
 -   sudo: testuser : TTY=...
@@ -131,6 +135,10 @@ index="victim-machine-logs"
     sudo adduser backupadmin
     sudo usermod -aG sudo backupadmin
 
+Image:
+
+    images/account-creation-detection.png
+
 ## Detection Query -- Account Creation
 
 ``` spl
@@ -155,6 +163,10 @@ index="victim-machine-logs"
     cat /etc/shadow
     ls /root
 
+Image:
+
+    images/sensitive-file-access.png
+    
 ## Detection Query
 
 ``` spl
@@ -175,6 +187,10 @@ index="victim-machine-logs"
 
     sudo apt install netcat
 
+Image:
+
+    images/tool-installation-detection.png
+    
 ## Detection Query
 
 ``` spl
@@ -196,10 +212,12 @@ index="victim-machine-logs"
     whoami
     id
 
+Image:
+
+    images/enumeration.png
+
+    
 These commands simulate attacker reconnaissance after gaining access.
-
-
-
 ------------------------------------------------------------------------
 
 #  Clean Attack Timeline Query
