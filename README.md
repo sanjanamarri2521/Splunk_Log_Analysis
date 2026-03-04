@@ -40,7 +40,7 @@ The environment was built in AWS EC2 where:
 -   Configured receiving port for log ingestion
 -   Created index: `victim-machine-logs`
 
-📷 Image:
+ Image:
 
    ![Splunk Machine Setup](images/splunk-machine-setup.png)
 
@@ -56,9 +56,10 @@ The environment was built in AWS EC2 where:
 -   Forwarded `/var/log/auth.log` to Splunk server
 -   Enabled SSH authentication
 
-📷 Image:
+ Image:
 
     ![Victim Machine Setup](images/victim-machine-setup.png)
+    
 
 ------------------------------------------------------------------------
 
