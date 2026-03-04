@@ -42,7 +42,7 @@ The environment was built in AWS EC2 where:
 
 📷 Image:
 
-    images/splunk-machine-setup.png
+   ![Splunk Machine Setup](images/splunk-machine-setup.png)
 
 ------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ The environment was built in AWS EC2 where:
 
 📷 Image:
 
-    images/victim-machine-setup.png
+    ![Victim Machine Setup](images/victim-machine-setup.png)
 
 ------------------------------------------------------------------------
 
@@ -72,7 +72,7 @@ The environment was built in AWS EC2 where:
 
 📷 Image:
 
-    images/hydra-bruteforce.png
+   ![Hydra Brute Force Attack](images/hydra-bruteforce.png)
 
 ## Logs Generated (Ubuntu 24.04 -- /var/log/auth.log)
 
@@ -94,7 +94,7 @@ sourcetype="auth" (Event="Failed password" OR Event="Accepted password")
 
 📷 Dashboard Image:
 
-    images/failed-vs-accepted-chart.png
+    ![Failed vs Accepted Login Chart](images/failed-vs-accepted-chart.png)
 
 ------------------------------------------------------------------------
 
@@ -107,7 +107,7 @@ sourcetype="auth" (Event="Failed password" OR Event="Accepted password")
 
 Image:
 
-    images/privilege-escalation-detection.png
+    ![Privilege Escalation Detection](images/privilege-escalation-detection.png)
 
 ## Logs Generated
 
@@ -137,7 +137,7 @@ index="victim-machine-logs"
 
 Image:
 
-    images/account-creation-detection.png
+    ![Account Creation Detection](images/account-creation-detection.png)
 
 ## Detection Query -- Account Creation
 
@@ -165,7 +165,7 @@ index="victim-machine-logs"
 
 Image:
 
-    images/sensitive-file-access.png
+    ![Sensitive File Access Detection](images/sensitive-file-access.png)
     
 ## Detection Query
 
@@ -189,7 +189,7 @@ index="victim-machine-logs"
 
 Image:
 
-    images/tool-installation-detection.png
+    ![Tool Installation Detection](images/tool-installation-detection.png)
     
 ## Detection Query
 
@@ -214,7 +214,7 @@ index="victim-machine-logs"
 
 Image:
 
-    images/enumeration.png
+    ![Enumeration Commands](images/enumeration.png)
 
     
 These commands simulate attacker reconnaissance after gaining access.
@@ -241,7 +241,7 @@ index="victim-machine-logs"
 
 📷 Image:
 
-    images/attack-timeline-dashboard.png
+    ![Attack Timeline Dashboard](images/attack-timeline-dashboard.png)
 
 ------------------------------------------------------------------------
 
