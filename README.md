@@ -71,7 +71,7 @@ The environment was built in AWS EC2 where:
 -   Multiple failed login attempts generated
 -   Successful login achieved as `testuser`
 
-📷 Image:
+ Image:
 
    ![Hydra Brute Force Attack](images/hydra-bruteforce.png)
 
@@ -93,7 +93,7 @@ sourcetype="auth" (Event="Failed password" OR Event="Accepted password")
 | sort - count
 ```
 
-📷 Dashboard Image:
+ Dashboard Image:
 
     ![Failed vs Accepted Login Chart](images/failed-vs-accepted-chart.png)
 
@@ -240,7 +240,7 @@ index="victim-machine-logs"
 | sort _time
 ```
 
-📷 Image:
+ Image:
 
     ![Attack Timeline Dashboard](images/attack-timeline-dashboard.png)
 
